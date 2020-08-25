@@ -83,7 +83,7 @@ var keywordMap = map[string]keyword{
 				Pattern:      "(.*)",
 				Assemblies: []string{
 					"Please don't apologise.",
-					"Apologies are not necessary.",
+					"Las excusas no son necesarias.",
 					"I've told you that apologies are not required.",
 				},
 			},
