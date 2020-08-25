@@ -34,16 +34,16 @@ var (
 
 	synonyms = map[string][]string{
 		"belief":   {"belief", "feel", "think", "believe", "wish"},
-		"family":   {"family", "mother", "mom", "father", "dad", "sister", "brother", "wife", "children", "child"},
-		"desire":   {"desire", "want", "need"},
-		"sad":      {"sad", "unhappy", "depressed", "sick"},
-		"happy":    {"happy", "elated", "glad", "better"},
-		"cannot":   {"cannot", "can't"},
-		"everyone": {"everyone", "everybody", "nobody", "noone"},
-		"be":       {"be", "am", "is", "are", "was"},
+		"family":   {"familia", "madre", "mama", "papa", "papi", "hermana", "hermano", "esposa", "hijos", "hijo"},
+		"desire":   {"deseo", "quiero", "necesito"},
+		"sad":      {"triste", "infeliz", "des=presivo", "enfermo"},
+		"happy":    {"felix", "elated", "glad", "mejor"},
+		"cannot":   {"no puedo", "no puedo"},
+		"everyone": {"todos", "en todo el mundo", "nadie", "ninguno"},
+		"be":       {"soy", "yo", "es", "somos", "fue"},
 	}
 
-	quit = []string{"bye", "goodbye", "quit", "ciao", "see you"}
+	quit = []string{"bye","adios", "te veo luego"}
 )
 
 type keyword struct {
@@ -66,10 +66,10 @@ var keywordMap = map[string]keyword{
 				AssemblyNext: 0,
 				Pattern:      "(.*)",
 				Assemblies: []string{
-					"I'm not sure I understand you fully.",
-					"Please go on.",
-					"What does that suggest to you ?",
-					"Do you feel strongly about discussing such things ?",
+					"No creo estar entendiendo.",
+					"Por favor , continua.",
+					"Como eso te hace sentir ?",
+					"Realmente quieres discutir este tema ?",
 				},
 			},
 		},
