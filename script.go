@@ -26,9 +26,9 @@ var (
 		"yo":     "tu",
 		"yo soy": "tu eres",
 		"para ti": "para mi",
-		"yo":      "tu",
+		"yoo":      "tu",
 		"tuyo":    "mio",
-		"mio":     "tuyo",
+		"mio":     "tuyo0",
 		"yo soy":  "tu eres",
 	}
 
