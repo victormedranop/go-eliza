@@ -22,7 +22,7 @@ var (
 
 	post = map[string]string{
 		"soy":    "somos",
-		"tuyo":   "mio",
+		"tuyo es":   "mio",
 		"yo":     "tu",
 		"yo soy": "tu eres",
 		"para ti": "para mi",
