@@ -21,26 +21,26 @@ var (
 	}
 
 	post = map[string]string{
-		"am":       "are",
-		"your":     "my",
-		"me":       "you",
-		"myself":   "yourself",
-		"yourself": "myself",
-		"i":        "you",
-		"you":      "me",
-		"my":       "your",
-		"i'm":      "you are",
+		"soy":       "somos",
+		"tuyo":     "mio",
+		"yo":       "tu",
+		"yo soy":   "tu eres",
+		"para ti": "para mi",
+		"yo":        "tu",
+		"tuyo":      "mio",
+		"mio":       "tuyo",
+		"yo soy":      "tu eres",
 	}
 
 	synonyms = map[string][]string{
-		"belief":   {"belief", "feel", "think", "believe", "wish"},
-		"family":   {"familia", "madre", "mama", "papa", "papi", "hermana", "hermano", "esposa", "hijos", "hijo"},
-		"desire":   {"deseo", "quiero", "necesito"},
-		"sad":      {"triste", "infeliz", "des=presivo", "enfermo"},
-		"happy":    {"felix", "elated", "glad", "mejor"},
-		"cannot":   {"no puedo", "no puedo"},
-		"everyone": {"todos", "en todo el mundo", "nadie", "ninguno"},
-		"be":       {"soy", "yo", "es", "somos", "fue"},
+		"creer":   {"creer", "sentir", "pensar", "creer", "desear"},
+		"familia":   {"familia", "madre", "mama", "papa", "papi", "hermana", "hermano", "esposa", "hijos", "hijo"},
+		"deseo":   {"deseo", "quiero", "necesito"},
+		"triste":      {"triste", "infeliz", "des=presivo", "enfermo"},
+		"feliz":    {"felix", "elated", "glad", "mejor"},
+		"no puedo":   {"no puedo", "no puedo"},
+		"cada uno": {"todos", "en todo el mundo", "nadie", "ninguno"},
+		"ser":       {"soy", "yo", "es", "somos", "fue"},
 	}
 
 	quit = []string{"bye","adios", "te veo luego"}
@@ -110,12 +110,12 @@ var keywordMap = map[string]keyword{
 				AssemblyNext: 0,
 				Pattern:      "(.*) ?i remember ?(.*)",
 				Assemblies: []string{
-					"Do you often think of (2) ?",
+					"que tanto piensas de  (2) ?",
 					"Does thinking of (2) bring anything else to mind ?",
-					"What else do you recollect ?",
+					"que mas puedes recolectar ?",
 					"Why do you recollect (2) just now ?",
-					"What in the present situation reminds you of (2) ?",
-					"What is the connection between me and (2) ?",
+					"esta situacion personal que podemos discutir (2) ?",
+					"cual es la conexion entre yo y (2) ?",
 				},
 			},
 			{
