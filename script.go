@@ -21,15 +21,15 @@ var (
 	}
 
 	post = map[string]string{
-		"soy":       "somos",
-		"tuyo":     "mio",
-		"yo":       "tu",
-		"yo soy":   "tu eres",
+		"soy":    "somos",
+		"tuyo":   "mio",
+		"yo":     "tu",
+		"yo soy": "tu eres",
 		"para ti": "para mi",
-		"yo":        "tu",
-		"tuyo":      "mio",
-		"mio":       "tuyo",
-		"yo soy":      "tu eres",
+		"yo":      "tu",
+		"tuyo":    "mio",
+		"mio":     "tuyo",
+		"yo soy":  "tu eres",
 	}
 
 	synonyms = map[string][]string{
