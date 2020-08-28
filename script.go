@@ -29,7 +29,7 @@ var (
 		"yoo":      "tu",
 		"tuyo":    "mio",
 		"mio":     "tuyo0",
-		"yo soy":  "tu eres",
+		"yo soy el ":  "tu eres",
 	}
 
 	synonyms = map[string][]string{
